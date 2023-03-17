@@ -11,8 +11,6 @@ BASE = "http://127.0.0.1:5000/"
     #'tips': ['batir bien los huevos, casi a punto nieve', 'condimentar con pimienta y nuez moscada'],
     #'image': 'http://nutricionenlared.com/web/wp-content/uploads/2014/03/broccoli-feta-frittata-l-400x300.jpg'
     #})
-
-
 #response = requests.delete(BASE + "recipes/souffle")
 
 response = requests.patch(BASE + "recipes/souffle", {
